@@ -28,7 +28,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #fdd20e;
-  background-image: url("/images/preload.gif");
+  background-image: url("LizPalmana/images/preload.gif");
   background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
