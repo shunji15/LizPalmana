@@ -340,7 +340,7 @@ body.ammenities-body {
   width: 90vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
 }
@@ -526,6 +526,9 @@ h5.img-text {
   .about-text {
     font-size: 0.6rem;
     padding: 0;
+  }
+  .ammenities-container {
+    grid-template-columns: 1fr;
   }
 }
 
