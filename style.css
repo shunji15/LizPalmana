@@ -513,8 +513,8 @@ h5.img-text {
   }
 
   .about-bigtext {
-    font-size: 6rem;
-    padding-top: 6rem;
+    font-size: 5rem;
+    padding-top: 5rem;
   }
 
   .about-text-container {
@@ -523,8 +523,8 @@ h5.img-text {
   }
 
   .about-text {
-    font-size: 0.9rem;
-    padding: 0.5rem 0;
+    font-size: 0.6rem;
+    padding: 0;
   }
 }
 
