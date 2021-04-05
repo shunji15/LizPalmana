@@ -433,7 +433,7 @@ h5.img-text {
   }
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     z-index: 5;
     right: 0px;
     height: 65vh;
@@ -451,7 +451,7 @@ h5.img-text {
   }
   .btn-container {
     background-color: #fdd20e;
-    position: absolute;
+    position: fixed;
     z-index: 5;
     right: 0px;
     height: 25vh;
