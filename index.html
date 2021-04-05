@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Liz Palmana Resort</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" 
+  href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin="" />
+ <script src="https://kit.fontawesome.com/e3793ebee8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="page">
+ <header>
+  <img src="./images/logo.png" alt="logo" class="logo">
+  <div class="links">
+   <ul class="nav-links">
+    <li class="page"><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+    <li class="page"><a href="/html/about.html"><i class="fas fa-info-circle"></i> ABOUT US</a></li>
+    <li class="page"><a href="/html/pricing.html"><i class="fas fa-money-bill-wave"></i> RATES</a></li>
+    <li class="page"><a href="/html/ammenities.html"><i class="fas fa-swimming-pool"></i> AMMENITIES</a></li>
+   </ul>
+  </div>
+  <div class="btn-container">
+    <button class="contact"><i class="fab fa-facebook"></i> Contact Us!</button>
+  </div>
+  <div class="burger">
+    <div class="line-1"></div>
+    <div class="line-2"></div>
+    <div class="line-3"></div>
+  </div>
+ </header>
+
+ <div class="hero">
+   <div class="background">
+     <div class="hero-text">
+      <div class="center">
+      <h1 class="fun">Have <span>Fun</span> At Ease</h1>
+      <h4 class="memories">Your Best Memories Start Here At <span>Liz Palmana</span></h4>
+      <button class="book-btn"> <span>BOOK NOW!</span></button>
+      </div>
+     </div>
+  </div>
+ </div>
+
+ <div class="location">
+  <h3 class="loc-text">OUR LOCATION</h3>
+  <div class="loc-address">
+    <div class="addr-text">
+      <h4 class="liz-text"> Liz Palmana Resort</h4>
+      <p>(former Shunji's Resort) </br>
+      Baltazar Compound, Patiis Road, Malanday San Mateo Rizal </br></br>
+      Resort Hours: Open 24/7 </br>
+      Cellphone #: 09354664489 (Globe) / 09215649307 (Smart) </br>
+      Facebook Page: <a href="https://www.facebook.com/LizPalmana">https://www.facebook.com/LizPalmana</a> </br>
+      Contact Person: Mrs. Maureen Cruz / Mr. Martin Cruz</br>
+      </p>
+    </div>
+    <div class="map-container">
+      <div id="mapid"></div>
+    </div>
+  </div>
+ </div>
+</div>
+
+
+ <div id="loading"></div>
+ 
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
