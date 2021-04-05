@@ -28,7 +28,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #fdd20e;
-  background-image: url("LizPalmana/images/preload.gif");
+  background-image: url("images/preload.gif");
   background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
@@ -339,7 +339,7 @@ body.ammenities-body {
   width: 90vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
 }
